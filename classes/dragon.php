@@ -24,7 +24,7 @@ class dragon extends personnage {
     }
 
     // Je redéfini la méthode héritée setNom
-    public function setNom()
+    public function setNom($nom)
     {
         $this->nom = "Dragon ".$this->id;
     }
